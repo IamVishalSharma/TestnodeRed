@@ -16,7 +16,7 @@
 
  RED.events = (function() {
      var handlers = {};
-
+     console.log("Test Git Checkin");
      function on(evt,func) {
          handlers[evt] = handlers[evt]||[];
          handlers[evt].push(func);
